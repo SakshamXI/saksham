@@ -1,5 +1,5 @@
 import datetime
-x = datetime.datetime.now()
+g = datetime.datetime.now()
 from pywhatkit import *
 def say (a):
     import pyttsx3
@@ -11,7 +11,7 @@ import time
 t = time.strftime("%H:%M")
 x = time.strftime("%H")
 print("Time->",t)
-print("Date->",x.strftime("%b.%d.%Y"))
+print("Date->",g.strftime("%b.%d.%Y"))
 if x< "12":
     print(f"Good Morning Sir,")
     say(f"Good Morning Sir,")
