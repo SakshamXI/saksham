@@ -7,7 +7,7 @@ def bol(a):
     b.stop()
     
 g = 1
-a = 9876
+a = 9876 #Change PASSWORD ACCORDING TO YOUR REQUIREMENTS
 i = 1
 while i < 2:
     bol("Enter Password")
