@@ -7,12 +7,13 @@ def bol(a):
     b.stop()
     
 g = 1
+j = 3
 a = 9876 #Change PASSWORD ACCORDING TO YOUR REQUIREMENTS
 i = 1
 while i < 2:
     bol("Enter Password")
-    c = int(input("Enter Password"))
-    if c == 9876:
+    c = input("Enter Password ->")
+    if c == "9876":
             print("Allowed")
             bol("Allowed")
             break
