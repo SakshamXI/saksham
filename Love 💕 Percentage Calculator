@@ -4,15 +4,10 @@ def lve():
     y = random.randint(50,100)
     print(y,"%")
   print("Welcome to Love   percentage calculator")
-  print('''What are the gender of both
-press:-
-1 ---> Boy-Girl
-2 ---> Boy-Boy
-3 ---> Girl-Girl''')
-  g = int(input("Enter here --->"))
   b = input("Enter the name of first person ---->")
   c = input("Enter the name of second person ---->")
-  print("The love between both  is",end=' ')
+  print(f"The love between both  is",end=' ')
+  love()
 if __name__=="__main__":
   lve()
 
