@@ -1,6 +1,9 @@
 a = str(input(" "))
 n =0
-b = (len(a)-1)//2
+if n%2 != 0:
+	b = (len(a)-1)//2
+else:
+	b = len(a)//2
 for i in range(b):
     if a[i] == a[-(i+1)]:
         n = n+1
